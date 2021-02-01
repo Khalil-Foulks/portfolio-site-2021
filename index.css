@@ -140,11 +140,10 @@ body {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
-h2.resume{
+#resume_container{
     text-align: center;
 }
-.resume.pdf{
-    padding-left: 450px;
+.resume_pdf{
     width: 850px;
     height: 1150px;
 }
@@ -365,5 +364,8 @@ h2.resume{
     }
     #box div {
         width:100%;
+    }
+    #resume_container {
+        display: none;
     }
 }
