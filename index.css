@@ -141,7 +141,7 @@ body {
     cursor:pointer;
 }
 #resume_container{
-    text-align: center;
+    text-decoration: underline;
 }
 .resume_pdf{
     width: 850px;
@@ -191,9 +191,13 @@ body {
     margin:20px 0px;
     transition:0.4s ease-in-out;
 }
+.container div h2 {
+    font-size: inherit;
+}
 .container div:hover {
     cursor:pointer;
 }
+
 .container section {
     margin:8vh 0px;
 }
