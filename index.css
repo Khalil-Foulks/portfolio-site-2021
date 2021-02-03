@@ -119,6 +119,9 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
+#project{
+    margin: 40px 0px;
+}
 #project img {
     max-width: 100%;
     height:auto;
@@ -229,6 +232,12 @@ body {
 }
 .container p {
     font-size:21px;
+}
+.container ul {
+    font-size:21px;
+}
+.container li {
+    margin: 0 0 3px 0;
 }
 .btn_one {
     font-size:18px;
@@ -380,5 +389,16 @@ body {
     }
     #resume_container {
         display: none;
+    }
+    #used div{
+        margin:0px 1px;
+        padding:8px 8px;
+    }
+    .btn_one {
+        margin:2vh 1px;
+        padding:8px 20px;
+    }
+    .container ul {
+        font-size:18px;
     }
 }
